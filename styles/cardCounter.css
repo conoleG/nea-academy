@@ -1,0 +1,21 @@
+.card-container {
+    padding: 1rem;
+}
+
+.card-body-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Ensures that the items will wrap if necessary */
+    gap: 1rem; /* Space between the cards */
+}
+
+.card-body {
+    flex: 1; /* Makes the card bodies flexible */
+    min-width: 200px; /* Ensures a minimum width for responsiveness */
+}
+
+@media (max-width: 600px) {
+    .card-body-container {
+        flex-direction: column;
+    }
+}
