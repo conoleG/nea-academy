@@ -1,6 +1,7 @@
 
 const stats = [
-    { id: 1, name: '', value: 'May 2025' },
+    { id: 1, name: '', value: 'February 2025' },
+     { id: 1, name: '', value: 'May 2025' },
     { id: 2, name: '', value: 'August 2025' },
     { id: 3, name: '', value: 'November 2025' },
 ];
